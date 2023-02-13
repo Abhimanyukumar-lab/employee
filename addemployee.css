@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #333;
+}
+
+
+.navbar{
+    background-color: #000000;
+    border-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    height: 5rem;
+}
+
+/* Path: style.css */
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+
+.logo {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+/* Path: style.css */
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.navbar-default .navbar-nav > li > a:active {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.navbar-default .navbar-nav > li > a:visited {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.navbar-default .navbar-nav > li > a:link {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+.nav-links{
+    background-color: #000000;
+    border-color: #000000;
+}
+
+/* Path: style.css */
+
+.nav-links a {
+    color: #ffffff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+/* Path: style.css */
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.nav-links a:focus {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.nav-links a:active {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.nav-links a:visited {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.nav-links a:link {
+    color: #ffffff;
+}
+
+h1{
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.btn1 a:focus {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.btn1 a:active {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.btn1 a:visited {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.btn1 a:link {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.btn1 a:visited {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.btn1 a:link {
+    color: #ffffff;
+}
+
+/* Path: style.css */
+
+.btn1 a:visited {
+    color: #ffffff;
+}
+
+
+
+
+
+
+.add-emp{
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.add-emp h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.add-emp .form-group{
+    margin-bottom: 20px;
+}
+
+.add-emp .form-group label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.add-emp .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+
+.add-emp .form-group input:focus{
+    border-color: #333;
+}
+
+.add-emp .form-group input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-emp .form-group input[type="submit"]:hover{
+    background-color: #555;
+}
+
+.add-emp .form-group input[type="submit"]:focus{
+    background-color: #555;
+}
+
+.add-emp .form-group input[type="submit"]:active{
+    background-color: #555;
+}
+
+.add-emp .form-group input[type="submit"]:disabled{
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.add-emp .form-group input[type="submit"]:disabled:hover{
+    background-color: #ccc;
+}
+
+.add-emp .form-group input[type="submit"]:disabled:focus{
+    background-color: #ccc;
+}
+
+
+/* Path: addemployee.js */
+
+
+.add-emp-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.add-emp-form{
+    margin-bottom: 20px;
+}
+
+.add-emp-form label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.add-emp-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+
+.add-emp-form input:focus{
+    border-color: #333;
+}
+
+.add-emp-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-emp-form input[type="submit"]:hover{
+    background-color: #555;
+}
+
+.add-emp-form input[type="submit"]:focus{
+    background-color: #555;
+}
+
+.add-emp-form input[type="submit"]:active{
+    background-color: #555;
+}
+
+.add-emp-form input[type="submit"]:disabled{
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.add-emp-form input[type="submit"]:disabled:hover{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:focus{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:hover{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:focus{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:hover{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:focus{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:hover{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:focus{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:active{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:active:hover{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:active:focus{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:active:active{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:active:active:hover{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:active:active:focus{
+    background-color: #ccc;
+}
+
+.add-emp-form input[type="submit"]:disabled:active:active:active:active:active:active{
+    background-color: #ccc;
+}
+
+.btn2{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 0px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.btn2:hover{
+    background-color: #555;
+}
+
+.btn2:focus{
+    background-color: #555;
+}
+
+.btn2:active{
+    background-color: #555;
+}
+
+.btn2:disabled{
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.btn2:disabled:hover{
+    background-color: #ccc;
+}
+
+.btn2:disabled:focus{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:hover{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:focus{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:active{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:active:hover{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:active:focus{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:active:active{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:active:active:hover{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:active:active:focus{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:active:active:active{
+    background-color: #ccc;
+}
+
+.btn2:disabled:active:active:active:active:hover{
+    background-color: #ccc;
+}
+
+
+/* Path: addemployee.js */
+
+input{
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+
+
+}
+
+input:focus{
+    border-color: #333;
+}
+
+input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #555;
+}
+
+input[type="submit"]:focus{
+    background-color: #555;
+}
+
+input[type="submit"]:active{
+    background-color: #555;
+}
+
+.input-group{
+    margin-bottom: 10px;
+}
+
+.input-group label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.input-group input{
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group input:focus{
+    border-color: #333;
+}
+
+.input-group input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-group input[type="submit"]:hover{
+    background-color: #555;
+}
+
+
+/* Path: addemployee.js */
+.inner{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.inner h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inner form{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.inner form h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inner form .input-group{
+    margin-bottom: 10px;
+}
+
+.inner form .input-group label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.inner form .input-group input{
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.inner form .input-group input:focus{
+    border-color: #333;
+}
+
+.inner form .input-group input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.inner form .input-group input[type="submit"]:hover{
+    background-color: #555;
+}
